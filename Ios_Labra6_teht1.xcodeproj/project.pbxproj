@@ -12,6 +12,9 @@
 		085441E523438BF600CD3FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085441E323438BF600CD3FCD /* Main.storyboard */; };
 		085441E723438C2600CD3FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085441E623438C2600CD3FCD /* Assets.xcassets */; };
 		085441EA23438C2600CD3FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085441E823438C2600CD3FCD /* LaunchScreen.storyboard */; };
+		085441F22343927900CD3FCD /* WeatherNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085441F12343927900CD3FCD /* WeatherNetworkHandler.swift */; };
+		085441F42343A59200CD3FCD /* WeatherNetworkHandlerObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085441F32343A59200CD3FCD /* WeatherNetworkHandlerObservable.swift */; };
+		085441F62343A91C00CD3FCD /* WeatherNetworkHandlerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085441F52343A91C00CD3FCD /* WeatherNetworkHandlerObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		085441E623438C2600CD3FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		085441E923438C2600CD3FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		085441EB23438C2700CD3FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085441F12343927900CD3FCD /* WeatherNetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkHandler.swift; sourceTree = "<group>"; };
+		085441F32343A59200CD3FCD /* WeatherNetworkHandlerObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkHandlerObservable.swift; sourceTree = "<group>"; };
+		085441F52343A91C00CD3FCD /* WeatherNetworkHandlerObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkHandlerObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				085441DF23438BF600CD3FCD /* AppDelegate.swift */,
 				085441E123438BF600CD3FCD /* ViewController.swift */,
+				085441F52343A91C00CD3FCD /* WeatherNetworkHandlerObserver.swift */,
+				085441F12343927900CD3FCD /* WeatherNetworkHandler.swift */,
+				085441F32343A59200CD3FCD /* WeatherNetworkHandlerObservable.swift */,
 				085441E323438BF600CD3FCD /* Main.storyboard */,
 				085441E623438C2600CD3FCD /* Assets.xcassets */,
 				085441E823438C2600CD3FCD /* LaunchScreen.storyboard */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085441F62343A91C00CD3FCD /* WeatherNetworkHandlerObserver.swift in Sources */,
+				085441F22343927900CD3FCD /* WeatherNetworkHandler.swift in Sources */,
+				085441F42343A59200CD3FCD /* WeatherNetworkHandlerObservable.swift in Sources */,
 				085441E223438BF600CD3FCD /* ViewController.swift in Sources */,
 				085441E023438BF600CD3FCD /* AppDelegate.swift in Sources */,
 			);
